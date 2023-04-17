@@ -15,14 +15,14 @@
 
 body {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  background-color: var(--color-dairy);
+  background-color: var(--color-white);
   color: var(--color-slate);
 }
 
@@ -33,30 +33,32 @@ body {
 }
 
 /* Logo */
-.logo-title {
-  font-family: "Raleway";
+.link {
+  font-family: "Raleway", "sans-serif";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-navy-blue);
+  text-decoration: none;
+  color: var(--color-iris);
 }
 
-.logo-title-primary {
-  color: var(--color-iris);
+.link-title-primary {
+  color: var(--color-navy-blue);
 }
 
 /* Navigation */
 
-.navbar {
+.list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  list-style: none;
 }
 
 .nav-item {
@@ -74,7 +76,7 @@ body {
 
 /* Contacts */
 
-.contacts {
+.list-contacts {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -82,6 +84,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  list-style: none;
 }
 
 .contact {
@@ -104,7 +107,7 @@ body {
 }
 
 .order-button {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -114,6 +117,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--color-white);
+  cursor: pointer;
 }
 
 .order-button:hover {
@@ -133,19 +137,24 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  text-align: center;
 }
 
 /* Services */
+
+.list-services {
+  list-style: none;
+}
 
 .serv-desc {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -155,15 +164,45 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+}
+
+/* Services example */
+
+.list-examples {
+  list-style: none;
+}
+
+.title-examples {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+  text-align: center;
 }
 
 /* Team */
 
 .team-section {
   background-color: var(--color-cloud);
+}
+
+.title-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+  text-align: center;
 }
 
 .employee-name {
@@ -186,17 +225,9 @@ body {
   color: var(--color-slate);
 }
 
-/* Page's sections titles */
-
-.section-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-navy-blue);
+.list-team {
+  list-style: none;
+  background-color: var(--color-white);
 }
 
 /* Footer */
@@ -205,7 +236,7 @@ body {
   background-color: var(--color-navy-blue);
 }
 
-.logo-title-secondary {
+.link-title-secondary {
   color: var(--color-cloud);
 }
 
@@ -223,13 +254,17 @@ body {
 
 /* Buttons */
 
+.list-filter {
+  list-style: none;
+}
+
 .filter-button {
   background-color: var(--color-cloud);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-iris);
 }
@@ -248,12 +283,18 @@ body {
   color: var(--color-white);
 }
 
+/* Examples portfolio */
+
+.list-ex-port {
+  list-style: none;
+}
+
 .serv-ex-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
