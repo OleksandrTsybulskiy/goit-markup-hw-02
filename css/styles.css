@@ -16,12 +16,8 @@
 body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
   background-color: var(--color-white);
   color: var(--color-slate);
 }
@@ -35,7 +31,6 @@ body {
 /* Logo */
 .link-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -52,8 +47,6 @@ body {
 /* Navigation */
 
 .list {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,11 +74,8 @@ body {
 }
 
 .list-contacts {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
   list-style: none;
@@ -111,11 +101,8 @@ body {
 }
 
 .order-button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.04em;
   background: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -127,18 +114,14 @@ body {
 .order-button:hover {
   background: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .order-button:focus {
   background: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .main-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -154,9 +137,6 @@ body {
 }
 
 .serv-desc {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -164,8 +144,6 @@ body {
 }
 
 .serv-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -180,8 +158,6 @@ body {
 }
 
 .title-examples {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -198,8 +174,6 @@ body {
 }
 
 .title-team {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -210,21 +184,16 @@ body {
 }
 
 .employee-name {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 
 .duty {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -248,11 +217,8 @@ body {
 }
 
 .footer-text {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
@@ -267,8 +233,6 @@ body {
 
 .filter-button {
   background-color: var(--color-cloud);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -280,14 +244,12 @@ body {
 .filter-button:hover {
   background: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   color: var(--color-white);
 }
 
 .filter-button:focus {
   background: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   color: var(--color-white);
 }
 
@@ -298,8 +260,6 @@ body {
 }
 
 .serv-ex-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -308,11 +268,9 @@ body {
 }
 
 .serv-ex-desc {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
